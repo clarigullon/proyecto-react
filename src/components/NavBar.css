@@ -1,0 +1,21 @@
+.NavBar {
+    background-color: #f0efeb;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.listaMenu {
+    list-style: none;
+    
+}
+
+.listaMenu li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.listaMenu li a {
+    text-decoration: none;
+    color: black;
+}
