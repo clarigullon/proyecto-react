@@ -1,0 +1,21 @@
+.botonesContador {
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    border-radius: 2px;
+    margin: 1%;
+    display: inline-block;
+    
+}
+
+.botonesContador:hover {
+    background-color: #4CAF50; 
+    color: white;
+}
+
+.contador {
+    margin-top: 2%;
+    background-color: #fff1e6;
+    border: 3px solid rgba(0, 0, 0, 0.3);
+    width: 20%;
+    margin-left: 40%;
+}
