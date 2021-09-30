@@ -7,9 +7,9 @@ const App =()=> {
   return (
     <div className="App">
       <header>
-        <NavBar></NavBar>
-        <ItemListContainer greeting="Productos TuttiGlutenFree"></ItemListContainer>
-        <ItemCount stock="5" initial="1"></ItemCount>
+        <NavBar/>
+        <ItemListContainer greeting="Productos TuttiGlutenFree"/>
+        <ItemCount stock="5" initial="1"/>
       </header>
      
     </div>
