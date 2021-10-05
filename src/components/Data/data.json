@@ -1,0 +1,34 @@
+[
+    {
+        "nombre": "Pan de Molde",
+        "id": 1,
+        "precio": 400,
+        "descripcion": "Pan de Molde elaborado con premezclas SIN TACC",
+        "img": "https://lh3.googleusercontent.com/Z3mdcbtWkXhCyF7W-tDwBIS0ZoUE4rJAvkgF4JGOo31AiUQZLLEqWVwpvo7jX8FvHaEp8YPXjQ_n7u_BRF1qfMCMujJOHela6oTiUv4uXV5sV7I3RByCf0J_irXebuAKZYfF2qp99qiqG_eyvjICpiFcAsIGjsBErfpKlEa3nrFg4onEkodmjVRICpacK3a3uDTSV5pbBs7FAFNwy_KsAgRbhdrN9ScvU5ZtxsFdGw5-m1TCyyHF16z3nAMS1SfXxidKf5josk5Oi1DYu4LYissYhWx3Lois7inuCjPEzBpSRyKsZdp-BiizLsFT34QrSGXOVRb3e2HOkX2rSJbH4UDVRPV7hkUwCmUmtN61Dwcbx_ctcaSjo4lvlUqQoozyC-RSZeJ5el9afrSSn3O4hU0Bcbn-jnTAOX8FSv1SdDT0pYu4OwiDUGbqlMEEJ861YmP9d92MrRZ4uBCU6Kj63ti-vt30ns8Mg53mtJQdXJV97NhgTnRGdMZuboOyGnc51uSRwSsN_eJVDjz7a5k_OTjKW9aCAqmpcngzWAL2hqt2eQy-LLGzIKTwj63VxjMRTn85D67m3rDZfbmVgklgQsbjl2eSNfVtMjnEdGLWiX4llmVuH4KP8hwP1z-yWK0u2l51goo5TJPfviscNf7wY-tNGZ2xWUCuPNQ6-b7PF89MyG6zQV6923EXR5gt6jtj7w4f8HPLG1xXsjxzTJSUJl88=w469-h625-no?authuser=0"
+    
+    },
+    {
+        "nombre": "Alfajores de Nuez",
+        "id": 2,
+        "precio": 300,
+        "descripcion": "Alfajorcitos con nuez, dulce de leche y glacé de chocolate blanco",
+        "img": "https://lh3.googleusercontent.com/jhtZbSiRCykOfGV1JlLrJ-gPBKZdnRqRkYZo1Y4pL8t-ltkVqu8H118A4fVTo16pYKX0e3vW_r2n6aF0dXnyBCc5PBHnNeyEi6k7KzuzP9pzK5hkVjBSQrpDlzkFB9X4b2UqgPDuD_w0VGAqHIDdcCti0VRyK2kxQJhLjetTicavxc-q86YoIDJBxbI-NuI5iaXdiHT39lJ7Xyk7FjIxu85ORXPvC2arbgbktKQ7niCh7zwNH2U_hiVokH-2OB1qIT80uf5L_TOPYXmC4cgbPsx4_Qfz8UuBHZUkYnz2BiZwTr7JPXkl0uVPGZYuomO2Ja_4sV6g0r55wGxo1bv8I1-_F7LKBp0wOH3iOcbRTJfCwsvOcTsRE5CCmewoNYMIIbL04t-gjJUAB3NafWASwwA8FNOJS4DjoZN4XBhATSSL1pLqi6nQtsusU1tY8d0GgAxgs9L02LIpTUJsomFO9YXRWZkX8gzHfqaI6u5Ov-0XnguHJby375SqrUJzsmHJzx3F4iJmJRwZi40-URDlUoXWgqTOsgGk2TBV9FqRjaqXFXsE6ucQU9IWIiY3qOaLQFvrqQpmoP8sgdPEndh0qbuebYR_lvnZvckgznGvxKWHOZXxCJ_ePaEsWahjHqsXybwcf8gFV126rJmTuozAwoPlBGUfzj7LKbDdi-yc9ocXDHVA2dT81EGggvhgoX90JQtpuvuKt1DjfHXMuersHid8=w469-h625-no?authuser=0"
+    
+    },
+    {
+        "nombre": "Alfajorcitos de Maizena",
+        "id": 3,
+        "precio": 400,
+        "descripcion": "Alfajorcitos de Maizena",
+        "img": "https://lh3.googleusercontent.com/SAJik0rjlvraDTSLgF06Y0_poTnWoWM0RBvBKQLxDvQd9zZ4Fd87qYQdVOoQZ80xHGqQsMdrweb5_fqcmNm02awvvdB_BnBL9NkyeebSiA7elJI8xnO1CQfA3hkeAW_6MaVYtk9mJclq2kUiunAohu0xhXq8hdq_bxuPQWEuEq8dkGUhY9T1hnQ7vUCgRhmMZCq9F3IpLxSIZWxUyqaOy-tBir2S01-soX0CDz0h-YwsVyK258U9UzGjMkrZXXs9Ini9AQNjco42cZqxYjuJycfAlkFMKQZLrv-jyDngqfcdQHNEmdozL1ynG9luQtdBUvXNbGiesvh82JyUXHShg2zuxco_iDeYlvUjZjH_IMiYBhEUM0VTeKqARrGWefDIVEDpa-I3sspLcwQI2VWUxHzbBiZSz6yKpDe_57wGzPvFD-ts0NmV9GTL9X0h17znrmQsktsxd7KHau_0cZyEGUwojQl4gvf0qGK8QOK44zrhjPjfl4nrRqNHz1uqa3qyeTRC8Y8PZDGkfGhA5JbdVDu6cSQx-oHe8v4qa9gSBa36-QSWQKYMwCIKnHuekaOJqHEmnhDQM4mTHa3yblCpNXjyY-4JqALSHRYnWOGPBtB0Spzxzlh2nThobiywwQBxHjZv1Iv6ysQiDgfyazYBMzBEQFKke3JFlLptWpk-fDfijmazwx3IAffaLQJ5DuNvF0UXQKXjRoJZekvaCgL8R5AX=w469-h625-no?authuser=0"
+    
+    },
+    {
+        "nombre": "Pan de Campo",
+        "id": 4,
+        "precio": 400,
+        "descripcion": "Pan de Campo elaborado con premezclas SIN TACC",
+        "img": "https://lh3.googleusercontent.com/QHeqYAYESmR1qbEqeoa1Di1bFFPobQiRlhyi_5Yx6q5xW2z1VVRsrtkv8W13FN_GsFd0JzvT16UQUgjPcmG3rkSgH6fgYbjPqPlmOCWKwjoSH8LAbYqTvoiV7hL4SWQ4DB5O8jBJzeqr1BURFe8H1tbBRNSoQ4HSc3lMfThZA6I8NIup0jiH_-oHXYCxYcMrUgHPUsFc4qQfwPNkwRHcC5-vQxEb03-R62k7ZM6_eKzgBpVrAPi6E1hGSaeSeFqu0WejsMwkTkPLskFc4iumZICNHncSB3nvOS1ixcZHNnel5wP635PxVR4va7fww7sHSe_54Y7v3kzqFq9tS69xA-FN1nbykcHoGLLJHf4glgUBTy52pL5Dw_VGCJFfqnJHMD17vicfaCqBFxwwqZBsmGA0UIxmzToFzvK8epksp8YEdbM-Hb2RTsluo1dRr1WOF0XmCMY3QMUx0snMWma29IWBiiNgeDoYNT64UEAz_zy7yIk9JlbuKJj75s8PTMoYV3LRUVIcqiJzqTrvw7v2pfenFM7YpnjKcpAWdFpaEuXfbB7X4i_45PYhj8mDcpvcZKynTiISmkPfbBgcS-uzfGDHCUbzOTk9UKpyfZZl6IS4AKSxaVI4HHu8U2IvkVXAl9Oam_mNwQNBedFZUx0RUvwocqvcvN3ZvvP_k7KgaxxR4rHBYOl1ulQd3_6IPuDH_C9Gf01nJq9j6fTTvASnzbig=w469-h625-no?authuser=0"
+    
+    }
+]
