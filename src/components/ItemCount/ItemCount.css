@@ -25,4 +25,8 @@
     flex-direction: column;
     display: flex;
     margin-top: 10%;
+    background-color: #f0efeb;
+    outline: none;
+    border: solid #cb997e;
+    cursor: pointer;
 }
