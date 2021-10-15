@@ -7,3 +7,7 @@
     margin-left: 5%;
     text-align: center;
 }
+
+.ItemList {
+    flex-wrap: wrap;
+}
