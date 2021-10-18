@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './ItemDetail.css';
 import ItemsData from '../Data/data.json';
-import { Card, Image } from 'semantic-ui-react'
 import ItemDetail from './ItemDetail';
 
 
@@ -25,7 +24,6 @@ const ItemDetailContainer = ({match}) => {
             {item.map((producto)=> {
                 return (
                     <ItemDetail producto={producto}/>
-                   
                 )
             }
             )}

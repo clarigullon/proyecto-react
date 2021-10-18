@@ -8,6 +8,7 @@ import Productos from './views/Productos';
 import Recetas from './views/Recetas';
 import Preguntas from './views/Preguntas';
 import ItemDetailContainer from './components/ItemDetail/ItemDetailContainer';
+import Postres from './components/Category/Postres'
 
 
 const App =()=> {
@@ -24,6 +25,7 @@ const App =()=> {
           <Route path="/recetas" component={Recetas}/>
           <Route path="/preguntas" component={Preguntas}/>
           <Route path="/detail/:id" component={ItemDetailContainer}/>
+          <Route path="/detail/id:'postres'" component={Postres} />
         </Switch>
       
       </div>
