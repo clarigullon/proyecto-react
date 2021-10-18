@@ -28,7 +28,7 @@ const ItemDetailContainer = ({match}) => {
                     <ItemDetail producto={producto}/>
                     
                 )
-            }
+            } 
             )}
         </div>
     )
