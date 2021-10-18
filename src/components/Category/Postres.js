@@ -3,7 +3,7 @@ import ItemsData from '../Data/data.json';
 import ItemCount from '../ItemCount/ItemCount'
 import { Card, Image } from 'semantic-ui-react'
 import {Link} from 'react-router-dom'
-
+import Categorias from '../../views/Categorias'
 const Postres = ({match}) => {
 
     let categoryPostres = match.params.id;
@@ -11,7 +11,7 @@ const Postres = ({match}) => {
 
     useEffect(() => {
         const getPostres = new Promise ((response) => {
-           response (ItemsData.filter(producto => producto.category === categoryPostres));
+           response (ItemsData.filter(producto => producto.id === categoryPostres === 'postres'));
         }) ;
         getPostres.then((data) => {
             setPostres (data);
@@ -19,7 +19,8 @@ const Postres = ({match}) => {
     },[]) ;
   
     return (
-        <div className="ItemList">
+        <div>
+            <Categorias />
         {postres.map((postre)=>{
             return (
                 <div key={postre.category}>
