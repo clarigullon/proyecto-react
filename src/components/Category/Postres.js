@@ -6,13 +6,13 @@ import {Link} from 'react-router-dom'
 import Categorias from '../../views/Categorias'
 const Postres = ({match}) => {
 
-    let categoryPostres = match.params.id;
+    let categoryPostres = match.params.category;
     console.log("MATCH", match)
     const [postres, setPostres] = useState ([]);
 
     useEffect(() => {
         const getPostres = new Promise ((response) => {
-           response (ItemsData.filter(producto => producto.id === categoryPostres>6));
+           response (ItemsData.filter(producto => producto.category === categoryPostres === 'postres'));
         }) ;
         getPostres.then((data) => {
             setPostres (data);

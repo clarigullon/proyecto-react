@@ -5,7 +5,7 @@ import ItemDetail from './ItemDetail';
 
 
 const ItemDetailContainer = ({match}) => {
-    
+    console.log("MATCH", match)
     let ItemId = match.params.id;
 
     const [item, setItem] = useState ([]);

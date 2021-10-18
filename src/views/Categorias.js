@@ -6,7 +6,7 @@ const Categorias = () => {
             <h3>Elija una categoría</h3>
             <Link to="/panificados" className="listaMenu">Panificados</Link>
             <Link to="/paraelte" className="listaMenu">Para El Te</Link>
-            <Link to="/detail/:id" className="listaMenu">Postres</Link>
+            <Link to="/detail/:id/postres" className="listaMenu">Postres</Link>
         </div>
     )
 }
