@@ -21,8 +21,9 @@ const Seccion = ({}) => {
   
     return (
         <div>
+        <Categorias/>
         {seccion.map((producto)=>{
-            <Categorias />
+            
             return (
                 <div className="Seccion" key={producto.categoria} >
                     <Link to={`/detail/${producto.categoria}`}>
