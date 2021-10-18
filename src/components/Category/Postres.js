@@ -7,24 +7,25 @@ import Categorias from '../../views/Categorias'
 const Postres = ({match}) => {
 
     let categoryPostres = match.params.id;
+    console.log("MATCH", match)
     const [postres, setPostres] = useState ([]);
 
     useEffect(() => {
         const getPostres = new Promise ((response) => {
-           response (ItemsData.filter(producto => producto.id === categoryPostres === 'postres'));
+           response (ItemsData.filter(producto => producto.id === categoryPostres>6));
         }) ;
         getPostres.then((data) => {
             setPostres (data);
         })
-    },[]) ;
+    },[ItemsData]) ;
   
     return (
         <div>
             <Categorias />
         {postres.map((postre)=>{
             return (
-                <div key={postre.category}>
-                    <Link to={`/detail/${postre.category}`}>
+                <div key={postre.id}>
+                    <Link to={`/detail/${postre.id}`}>
                         <Card >
                             <Image src={postre.img} wrapped ui={false}/>
                             <Card.Content>

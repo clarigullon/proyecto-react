@@ -68,3 +68,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+### `proyecto-react-tuttiglutenfree`
+Con React.js y JSX se confeccionará un carrito de compras. El objetivo final es que el cliente pueda agregar productos al carrito, eliminar los que no quiera y finalizar la compra.

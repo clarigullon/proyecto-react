@@ -1,17 +1,21 @@
 import React from 'react'
-import ItemListContainer from '../components/ItemListContainer/ItemListContainer'
+import ItemList from '../components/ItemListContainer/ItemList/ItemList'
 import './Views.css'
 import Categorias from './Categorias'
+
 
 
 const Productos = () => {
     return (
         <div >
             <Categorias />
-            <ItemListContainer greeting="PRODUCTOS" />
+            <h1>Productos</h1>
+            <ItemList/>
             
         </div>
     )
 }
 
 export default Productos
+
+
