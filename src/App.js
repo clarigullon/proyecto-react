@@ -8,7 +8,7 @@ import Productos from './views/Productos';
 import Recetas from './views/Recetas';
 import Preguntas from './views/Preguntas';
 import ItemDetailContainer from './components/ItemDetail/ItemDetailContainer';
-import Postres from './components/Category/Postres'
+import Seccion from './components/Category/Seccion'
 
 
 const App =()=> {
@@ -25,7 +25,7 @@ const App =()=> {
           <Route path="/recetas" component={Recetas}/>
           <Route path="/preguntas" component={Preguntas}/>
           <Route path="/detail/:id" component={ItemDetailContainer}/>
-          <Route path="/detail/postres" component={Postres} />
+          <Route path="/category/:categoriaId" component={Seccion} />
         </Switch>
       
       </div>

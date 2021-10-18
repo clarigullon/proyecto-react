@@ -1,0 +1,13 @@
+.Seccion {
+    flex-direction: row;
+    display: flex; 
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin: 40px;
+    margin-left: 5%;
+    text-align: center;
+}
+
+.Seccion {
+    flex-wrap: wrap;
+}
