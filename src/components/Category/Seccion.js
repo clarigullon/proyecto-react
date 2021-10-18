@@ -15,6 +15,7 @@ const Seccion = ({}) => {
            response (ItemsData.filter((e) => e.categoria === categoriaId));
         }) ;
         getSeccion.then((data) => {
+            console.log(data, "data")
             setSeccion (data);
         })
     },[categoriaId]) ;
@@ -25,7 +26,7 @@ const Seccion = ({}) => {
         {seccion.map((producto)=>{
             
             return (
-                <div className="Seccion" key={producto.categoria} >
+                <div className="Seccion" >
                     <Link to={`/detail/${producto.categoria}`}>
                         <Card  >
                             <Image src={producto.img} wrapped ui={false}/>
