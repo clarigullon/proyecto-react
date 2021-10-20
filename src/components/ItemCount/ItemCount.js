@@ -1,9 +1,10 @@
-import React from 'react'
 import './ItemCount.css'
-const ItemCount = ({stock, initial}) => {
-    const [counter, setCounter]=React.useState(parseInt(initial));
+import React, { useState } from 'react';
+const ItemCount = (props) => {
+    const [counter, setCounter]=React.useState(parseInt(props.valorInicial));
+    const [stockProd, setStockProd]=useState(parseInt(props.stock));
     const incrementar = () => {
-        if (counter < stock){
+        if (counter < stockProd){
             setCounter (counter +1)
         }
     };
@@ -13,12 +14,7 @@ const ItemCount = ({stock, initial}) => {
         }
         
     };
-    const onAdd = () => {
-        if (counter > 0){
-            alert("Felicitaciones! Usted ha agregado " + counter + " producto/s al carrito")
-        }
-        
-    }
+    
     return (
         <div>
         <div className="contador">
@@ -28,7 +24,7 @@ const ItemCount = ({stock, initial}) => {
         
         </div>
             <div className="btn-agregar"> 
-                <button onClick={onAdd} >AGREGAR AL CARRITO</button>
+                <button onClick={()=> props.onClick(counter)} >AGREGAR AL CARRITO</button>
             </div>
         </div>
     )

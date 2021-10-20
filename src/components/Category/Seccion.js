@@ -5,6 +5,7 @@ import { Card, Image } from 'semantic-ui-react'
 import {Link, useParams} from 'react-router-dom'
 import Categorias from '../../views/Categorias'
 import './Seccion.css'
+
 const Seccion = ({}) => {
 
     const {categoriaId} = useParams();
