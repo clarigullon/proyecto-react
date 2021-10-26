@@ -3,7 +3,7 @@ import { CartContext } from './CartContext'
 import { Card, Image } from 'semantic-ui-react'
 
 const Cart = () => {
-    const [productos, setProductos, clearState, addItem, removeItem]=useContext(CartContext)
+    const {carrito, setCarrito, clearState, addItem, removeItem}=useContext(CartContext)
     return (
         <div> 
             <h2>Resumen de compra:</h2>

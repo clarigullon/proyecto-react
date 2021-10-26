@@ -8,13 +8,13 @@ const ItemDetail = (props) => {
 
     const [compra, setCompra] = useState();
     const [terminar, setTerminar]= useState(false);
-    const [productos, setProductos, clearState, addItem, removeItem]=useContext(CartContext)
+    const {carrito, setCarrito, clearState, addItem, removeItem}=useContext(CartContext)
 
     const onAdd = (cantidad) => {
         setCompra (cantidad)
         addItem (props.producto, cantidad)
         setTerminar(!terminar)
-        console.log("esto es mi array", productos)
+        console.log("esto es mi array", carrito)
     }
     
     console.log("esto tiene el estado", compra)
