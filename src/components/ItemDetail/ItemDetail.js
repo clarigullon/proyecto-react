@@ -1,17 +1,26 @@
-import React, { useState } from 'react';
+import React, { useState, useContext } from 'react';
 import { Card, Image } from 'semantic-ui-react'
 import ItemCount from '../ItemCount/ItemCount'
-import {Link} from 'react-router-dom'
+import { Link} from 'react-router-dom'
+import { CartContext } from '../Cart/CartContext';
 
 const ItemDetail = (props) => {
 
     const [compra, setCompra] = useState();
     const [terminar, setTerminar]= useState(false);
+    const [productos, setProductos, clearState, addItem, removeItem]=useContext(CartContext)
+
     const onAdd = (cantidad) => {
         setCompra (cantidad)
+        addItem (props.producto, cantidad)
         setTerminar(!terminar)
+        console.log("esto es mi array", productos)
     }
+    
     console.log("esto tiene el estado", compra)
+  
+    
+    
     return (
         <div className="ItemDetail">
             <Card key={props.producto.id} >

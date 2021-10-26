@@ -9,11 +9,13 @@ import Recetas from './views/Recetas';
 import Preguntas from './views/Preguntas';
 import ItemDetailContainer from './components/ItemDetail/ItemDetailContainer';
 import Seccion from './components/Category/Seccion'
-
+import Cart from './components/Cart/Cart'
+import { ItemsProvider } from './components/Cart/CartContext';
 
 const App =()=> {
   return (
     <Router>
+      <ItemsProvider>
       <div className="App">
         <header>
           <Header/>
@@ -23,13 +25,16 @@ const App =()=> {
           <Route path="/" exact component={Home}/>
           <Route path="/productos" component={Productos}/>
           <Route path="/recetas" component={Recetas}/>
-          <Route path="/preguntas" component={Preguntas}/>
-          <Route path="/detail/:id" component={ItemDetailContainer}/>
+          <Route path="/preguntas" component={Preguntas}/> 
           <Route path="/category/:categoriaId" component={Seccion} />
+          <Route path="/cart" component={Cart}/>
+          <Route path="/detail/:id" component={ItemDetailContainer}/>
         </Switch>
       
       </div>
+      </ItemsProvider>
     </Router>
+    
   );
 }
 

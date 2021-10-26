@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import ItemsData from '../Data/data.json';
-import ItemCount from '../ItemCount/ItemCount'
 import { Card, Image } from 'semantic-ui-react'
-import {Link, useParams} from 'react-router-dom'
+import { useParams} from 'react-router-dom'
 import Categorias from '../../views/Categorias'
 import './Seccion.css'
 
@@ -25,21 +24,19 @@ const Seccion = ({}) => {
         <div>
         <Categorias/>
         {seccion.map((producto)=>{
-            
             return (
                 <div className="Seccion" >
-                    <Link to={`/detail/${producto.categoria}`}>
-                        <Card  >
+                    
+                        <Card>
                             <Image src={producto.img} wrapped ui={false}/>
                             <Card.Content>
                             <Card.Header> {producto.nombre} </Card.Header>
                             <Card.Meta> {producto.id} </Card.Meta>
                             <Card.Description>{producto.descripcion}</Card.Description>
                             <Card.Content>${producto.precio}</Card.Content>
-                            <ItemCount stock="5" initial="1"/>
                         </Card.Content>
                     </Card>
-                    </Link>
+                   
                 </div>
             )
         }

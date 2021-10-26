@@ -4,9 +4,9 @@ import './ItemList.css'
 import ItemData from '../../Data/data.json'
 import {Link} from 'react-router-dom'
 
-
 const ItemList = () => {
     const [items, setItems]=useState([]);
+
     
     useEffect(() => {
         const promList = new Promise ((resolve) => {
@@ -20,6 +20,7 @@ const ItemList = () => {
         })
         
     })
+    
     return (
         <div className="ItemList">
             {items.map((item)=>{
@@ -29,9 +30,12 @@ const ItemList = () => {
                         <Item item={item} key={item.id}/>
                         </Link>
                     </div>
+                    
                 )
             }
             )}
+               
+
         </div>
     )
 }
