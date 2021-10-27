@@ -7,7 +7,6 @@ export const ItemsProvider = ({children}) => {
     
     const [carrito, setCarrito] = useState([]);
     
-    console.log(carrito, "esto es lo que voy agregando")
     const addItem = (producto, cantidad) => {
         console.log("hola item")
        
@@ -16,11 +15,11 @@ export const ItemsProvider = ({children}) => {
             if (productoClickeado !== null){
                 productoClickeado.cantidad += cantidad
             } else {
-                const productoAgregado = {"id" : producto.id, "cantidad": cantidad}
+                const productoAgregado = {"nombre": producto.nombre, "precio": producto.precio, "img": producto.img, "id" : producto.id, "cantidad": cantidad}
                 carrito.push(productoAgregado)
             }
         } else {
-            const productoNuevo = {"id": producto.id, "cantidad": cantidad}
+            const productoNuevo ={"nombre": producto.nombre, "precio": producto.precio, "img": producto.img, "id" : producto.id, "cantidad": cantidad}
             carrito.push(productoNuevo)
 
         } 
@@ -28,17 +27,19 @@ export const ItemsProvider = ({children}) => {
     }
 
     
-    const removeItem = (producto) => {
+    const removeItem = (producto, cantidad) => {
         if (carrito.lenght){
             const indexOf = carrito.indexOf((e) => e.id === producto.id)
             if (indexOf > -1){
-                carrito.slice(indexOf, 1)
+                carrito.slice(indexOf, cantidad -1)
             } 
         } 
     }
+    console.log("click remove", removeItem)
     const clearState = () => {
         setCarrito ([])
     }
+    
     return (
         <CartContext.Provider value={{carrito: carrito, setCarrito: setCarrito, 
         clearState: clearState, 

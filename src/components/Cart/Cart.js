@@ -1,17 +1,20 @@
-import React, {useContext} from 'react'
+import React, { useState} from 'react'
 import { CartContext } from './CartContext'
-import { Card, Image } from 'semantic-ui-react'
-
+import CartItem from './CartItem'
+import Alert from './Alert'
 const Cart = () => {
-    const {carrito, setCarrito, clearState, addItem, removeItem}=useContext(CartContext)
+    const [vacio, setCartVacio] = useState(false);
+
+    const cart = () => {
+        setCartVacio(true)
+    }
     return (
         <div> 
-            <h2>Resumen de compra:</h2>
-            <button onClick={removeItem}>Eliminar Item</button>
-            <button onClick={clearState}>Limpiar Carrito</button>
+            
+            {vacio ?   <Alert/> : <CartItem/>}
+           
         </div>
-    )
-    
+    ) 
 }
 
 export default Cart
